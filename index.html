@@ -101,13 +101,14 @@
             }
             .scroll-inner {
                 white-space: nowrap;
-                animation: scroll 28s linear infinite;
+                animation: scroll 34s linear infinite 6s;
                 font-size:17px;
                 color:#ffe89c;
             }
             @keyframes scroll {
-                from {transform: translateX(100%);}
-                to {transform: translateX(-100%);}
+                0%{transform:translateX(20%);}
+                82.35%{transform:translateX(-100%);}
+                100%{transform:translateX(-100%);}
             }
             .tip {
                 position:absolute;
